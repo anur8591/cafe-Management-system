@@ -31,6 +31,8 @@ if another_order.lower() == 'yes':
         print(f"{item} added to your order. price: {menu[item]}")
     else:
         print(f"sorry, {item} is not available in the menu, please choose from the menu")
-        
-print(f"Your total bill is: {total}")
+    print(f"Your total bill is: {total}")
+else:
+    print("please enter \"yes\" or \"no\" only\n")
+    print("Try again to place your order")
 
